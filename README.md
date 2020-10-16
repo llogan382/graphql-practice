@@ -54,3 +54,9 @@ Create a new component that will display a single Link.
 With Apollo, there are two ways of sending data to the server.
     1. Use the query method on `ApolloClient` directly. This will return the data as a promise.
     2. Use Apollo's new `render prop` method.
+8. Mutations. Start with where the users will be entering the mutations.
+In this case, `CreateLink.js` was created. The default React way to enter a form was created.
+The data from this input is stored in STATE
+    1. But how do you get the mutation to the server?
+    Three Steps: Define your mutation and wrap with the `gql` container as a CONSTANT. Wrap the button as a `render prop` result with a `<Mutation />` component passing `post_mutation` as a prop. Then, pass the DESCRIPTION and URL as variables
+9. Add React Router to add some pages to my app

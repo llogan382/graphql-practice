@@ -47,3 +47,9 @@ This will add the following components:
     - Explore the server. Run `yarn start` to start the server.
     This will execute the `start` script found in `package.json` by starting the server and the graphql playground
 
+6. Prepare the React Components.
+Create a new component that will display a single Link.
+7. Queries. You can now add the queries in the playground, but how can you use it in your code?
+### Queries with Apollo Client
+With Apollo, there are two ways of sending data to the server.
+    1. Use the query method on `ApolloClient` directly. This will return the data as a promise.

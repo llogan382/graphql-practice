@@ -53,3 +53,4 @@ Create a new component that will display a single Link.
 ### Queries with Apollo Client
 With Apollo, there are two ways of sending data to the server.
     1. Use the query method on `ApolloClient` directly. This will return the data as a promise.
+    2. Use Apollo's new `render prop` method.
